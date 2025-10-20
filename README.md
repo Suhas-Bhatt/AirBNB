@@ -89,13 +89,7 @@ http://localhost:3000
 
 🌐 Deployment on Render/Vercel
 
-📸 Screenshots
 
-Want to make this sexier? Drop in some visuals!
-Place your images in public/images/ and embed them like below:
-
-![Homepage](public/images/home.png)
-![Listing Page](public/images/listing.png)
 
 🤝 Contributing
 
@@ -110,9 +104,6 @@ Created by Suhas Bhatt
 "Design is not just what it looks like and feels like. Design is how it works."
 — Steve Jobs
 
-📄 License
-
-This project is licensed under the MIT License.
 
 
 ---
