@@ -12,7 +12,7 @@ An immersive Airbnb-like experience — built with love, craft, and clean code.
 
 ## 🌐 Live Demo
 
-🔗 [Check out the live site here!](https://airbnb-p583.onrender.com/listings)
+🔗 [Check out the live site here!](https://rentalhub-4z9w.onrender.com/listings)
 
 > Hosted on Render — may take a few seconds to wake up if idle.
 
