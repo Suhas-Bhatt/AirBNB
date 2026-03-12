@@ -103,9 +103,3 @@ Created by Suhas Bhatt
 
 "Design is not just what it looks like and feels like. Design is how it works."
 — Steve Jobs
-
-
-
----
-
-Would you like this turned into a downloadable file (`README.md`) you can drop directly into your rep
