@@ -1,105 +1,192 @@
 # 🏡 AirBNB Clone
 
-An immersive Airbnb-like experience — built with love, craft, and clean code.
+An immersive Airbnb-like rental platform built using **Node.js, Express, MongoDB, and EJS**.
+This project replicates core Airbnb functionalities such as browsing listings, creating properties, and booking stays.
 
 ---
 
-## 🚀 Overview
+# 🚀 Overview
 
-**AirBNB Clone** is a full-stack web application that replicates core functionalities of Airbnb: browsing stays, managing listings, and booking unique places around the world. It's designed to showcase backend architecture, frontend templating, database modeling, and user flows in a streamlined, elegant manner.
+The **AirBNB Clone** is a full-stack web application designed to demonstrate backend architecture, database design, and dynamic server-side rendering.
 
----
+Users can:
 
-## 🌐 Live Demo
+* Browse available property listings
+* Create and manage their own listings
+* View listing details
+* Book stays with selected dates
 
-🔗 [Check out the live site here!](https://rentalhub-4z9w.onrender.com/listings)
-
-> Hosted on Render — may take a few seconds to wake up if idle.
-
----
-
-## 🧰 Tech Stack
-
-| Layer        | Tech Used                     |
-|--------------|-------------------------------|
-| Backend      | Node.js, Express.js           |
-| Frontend     | EJS Templates, HTML, CSS      |
-| Database     | MongoDB, Mongoose             |
-| Styling      | CSS3                          |
-| Misc         | Express Middleware, Utilities |
+This project focuses on **clean backend architecture, MVC structure, and RESTful routes**.
 
 ---
 
-## 📁 Project Structure
+# 🌐 Live Demo
+
+🔗 https://rentalhub-4z9w.onrender.com/listings
+
+> ⚠️ The site is hosted on **Render**, so it may take a few seconds to wake up if inactive.
+
+---
+
+# 🧰 Tech Stack
+
+| Layer      | Technology                    |
+| ---------- | ----------------------------- |
+| Backend    | Node.js, Express.js           |
+| Frontend   | EJS Templates                 |
+| Database   | MongoDB, Mongoose             |
+| Styling    | HTML5, CSS3                   |
+| Deployment | Render                        |
+| Tools      | Express Middleware, Utilities |
+
+---
+
+# 📁 Project Structure
+
+```
 AirBNB/
-├── app.js # Entry point
-├── package.json # Dependencies & scripts
-├── models/ # Mongoose schemas (User, Listing, Booking)
-├── views/ # EJS templates (home, listings, forms)
-├── public/ # Static assets (CSS, images)
-├── utils/ # Helper functions
-└── README.md # This file 😉
-
+│
+├── app.js              # Application entry point
+├── package.json        # Project dependencies
+│
+├── models/             # Mongoose models
+│   ├── listing.js
+│   ├── user.js
+│   └── booking.js
+│
+├── views/              # EJS templates
+│   ├── listings/
+│   ├── layouts/
+│   └── partials/
+│
+├── public/             # Static files
+│   ├── css/
+│   └── images/
+│
+├── utils/              # Helper functions
+│
+└── README.md
+```
 
 ---
 
-## 🛠️ Getting Started
+# ⚙️ Installation & Setup
 
-Follow these steps to get the app running locally:
+Follow these steps to run the project locally.
 
-```bash
-# 1. Clone the repository
+## 1️⃣ Clone the repository
+
+```
 git clone https://github.com/Suhas-Bhatt/AirBNB.git
+```
 
-# 2. Navigate into the directory
+---
+
+## 2️⃣ Navigate to the project folder
+
+```
 cd AirBNB
+```
 
-# 3. Install dependencies
+---
+
+## 3️⃣ Install dependencies
+
+```
 npm install
+```
 
-# 4. Start the development server
+---
+
+## 4️⃣ Start MongoDB
+
+Open a new terminal and run:
+
+```
+mongosh
+```
+
+Create or switch database:
+
+```
+use airbnb
+```
+
+---
+
+## 5️⃣ Run the application
+
+```
 npm start
+```
 
-# 5. Visit the app in your browser
+or
+
+```
+node app.js
+```
+
+---
+
+## 6️⃣ Open in browser
+
+```
 http://localhost:3000
+```
 
-✨ Features
+Listings page:
 
-🔍 Browse property listings
+```
+http://localhost:3000/listings
+```
 
-🏠 Create and manage your own listings
+---
 
-📅 Book stays with date selection
+# ✨ Features
 
-👤 User sessions (coming soon)
+* 🔍 Browse property listings
+* 🏠 Create new property listings
+* ✏️ Edit and update listings
+* ❌ Delete listings
+* 📅 Book property stays
+* 📄 Dynamic server-side rendering using EJS
+* 📦 MongoDB database integration
 
-📸 Clean and responsive UI
+---
 
-🌱 Future Enhancements
+# 🌱 Future Enhancements
 
-✅ User Authentication (Register/Login)
+* 🔐 User Authentication (Login / Register)
+* ⭐ Listing Reviews & Ratings
+* 🔎 Advanced Search & Filters
+* 💳 Payment Gateway Integration
+* 📱 Fully Responsive Mobile UI
+* ☁️ Cloud image uploads (Cloudinary)
+* 🌍 Deployment with Docker
 
-⭐ Listing Reviews & Star Ratings
+---
 
-🔎 Advanced Search & Filters
+# 🤝 Contributing
 
-💳 Payment Gateway Integration
+Contributions are welcome!
 
-📱 Mobile-Responsive UI
+If you would like to improve this project:
 
-🌐 Deployment on Render/Vercel
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
 
+---
 
+# 📬 Contact
 
-🤝 Contributing
+Created by **Suhas Bhatt**
 
-Pull requests are welcome!
-For major changes, please open an issue first to discuss what you’d like to change.
+GitHub:
+https://github.com/Suhas-Bhatt
 
-📬 Contact
+---
 
-Created by Suhas Bhatt
-→ GitHub Profile
-
-"Design is not just what it looks like and feels like. Design is how it works."
-— Steve Jobs
+> “Design is not just what it looks like and feels like. Design is how it works.”
+> — Steve Jobs
